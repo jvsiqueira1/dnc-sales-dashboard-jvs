@@ -25,7 +25,6 @@ export const StyledInput = styled.input<InputProps>`
   }
 
   &::placeholder {
-    background-color: ${(props) => props.theme.textInput.disabled};
     color: ${(props) => props.theme.textInput.placeholderColor};
   }
 `
