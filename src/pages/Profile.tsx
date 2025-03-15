@@ -93,6 +93,7 @@ function Profile() {
         alert('Perfil deletado com sucesso!')
         Cookies.remove('Authorization')
         window.location.href = '/'
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (e) {
         alert(
           'Não foi possivel realizar a operação. Entre em contato com nosso suporte.'

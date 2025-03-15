@@ -3,6 +3,6 @@ export interface ProfileEditableData {
   phone: string
 }
 
-export interface ProfileData extends ProfileEdittableData {
+export interface ProfileData extends ProfileEditableData {
   email: string
 }
